@@ -1,0 +1,16 @@
+/* Desktop */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: hsl(36, 100%, 99%);
+}
+
+/* Phone */
+@media screen and (max-width: 820px) {
+  body {
+    padding: 0 20px;
+  }
+}
