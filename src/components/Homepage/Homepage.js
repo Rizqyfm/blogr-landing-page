@@ -4,9 +4,28 @@ import "./Homepage.css";
 function Homepage() {
   return (
     <main className="wrapper">
-      <section className="firstSection">
-        A modern publishing platform Grow your audience and build your online
-        brand Start for Free Learn More
+      <section className="firstSection min-h-screen bg-gdVeryLightRed">
+        <section className="content">
+          <section className="contentHeading flex flex-col gap-y-3.5">
+            <h1 className="heading text-white font-Overpass text-6xl font-semibold text-center">
+              A modern publishing platform
+            </h1>
+            <h2 className="headingDesc text-white font-Ubuntu text-xl text-center ">
+              Grow your audience and build your online brand
+            </h2>
+          </section>
+          <div className="buttons flex flex-row gap-x-10">
+            <button
+              type="button"
+              className="start btn font-bold text-ctaText bg-white"
+            >
+              Start for Free
+            </button>
+            <button type="button" className="learn btn font-bold text-white">
+              Learn More
+            </button>
+          </div>
+        </section>
       </section>
       <section className="secondSection">
         Designed for the future Introducing an extensible editor Blogr features
