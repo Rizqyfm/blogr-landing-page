@@ -1,10 +1,11 @@
 import React from "react";
 import "./Homepage.css";
+import secondImage from "../images/illustration-editor-desktop.svg";
 
 function Homepage() {
   return (
     <main className="wrapper">
-      <section className="firstSection min-h-screen bg-gdVeryLightRed">
+      <section className="firstSection bg-gdVeryLightRed">
         <section className="content">
           <section className="contentHeading flex flex-col gap-y-3.5">
             <h1 className="heading text-white font-Overpass text-6xl font-semibold text-center">
@@ -28,16 +29,36 @@ function Homepage() {
         </section>
       </section>
       <section className="secondSection">
-        Designed for the future Introducing an extensible editor Blogr features
-        an exceedingly intuitive interface which lets you focus on one thing:
-        creating content. The editor supports management of multiple blogs and
-        allows easy manipulation of embeds such as images, videos, and Markdown.
-        Extensibility with plugins and themes provide easy ways to add
-        functionality or change the looks of a blog. Robust content management
-        Flexible content management enables users to easily move through posts.
-        Increase the usability of your blog by adding customized categories,
-        sections, format, or flow. With this functionality, you’re in full
-        control.
+        <h2 className="subHeading text-center font-Overpass text-4xl font-bold">
+          Designed for the future
+        </h2>
+        <section className="secondContent flex flex-row flex-nowrap justify-center">
+          <section className="leftSecond flex flex-col flex-nowrap gap-y-5">
+            <h3 className="smallHeading text-xl font-Ubuntu">
+              Introducing an extensible editor
+            </h3>
+            <p className="description font-Ubuntu">
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+            <h3 className="smallHeading text-xl pt-10">
+              Robust content management
+            </h3>
+            <p className="description font-Ubuntu">
+              Flexible content management enables users to easily move through
+              posts. Increase the usability of your blog by adding customized
+              categories, sections, format, or flow. With this functionality,
+              you’re in full control.
+            </p>
+          </section>
+          <section className="rightSecond">
+            <img src={secondImage} alt="Desktop editor" className="secondImg" />
+          </section>
+        </section>
       </section>
       <section className="thirdSection">
         State of the Art Infrastructure With reliability and speed in mind,
