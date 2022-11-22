@@ -11,8 +11,8 @@ module.exports = {
       footerbackground: "hsl(240, 10%, 16%)",
       gdVeryLightRed: "hsl(13, 100%, 72%)",
       gdLightRed: "hsl(353, 100%, 62%)",
-      gdDarkGrayBlue: "hsl(0, 0%, 100%)",
-      gdDarkSaturatedBlue: "hsl(0, 0%, 100%)",
+      gdDarkGrayBlue: "hsl(237, 17%, 21%)",
+      gdDarkSaturatedBlue: "hsl(237, 23%, 32%)",
       white: "hsl(0, 0%, 100%)",
     },
     fontFamily: {

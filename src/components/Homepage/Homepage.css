@@ -1,7 +1,7 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .firstSection {
@@ -55,14 +55,39 @@
 }
 .smallHeading {
   font-weight: 500;
+  color: hsl(208, 49%, 24%);
 }
-.description {
-  color: hsl(207, 13%, 34%);
-}
+
 .rightSecond {
   margin-right: -300px;
 }
 .secondImg {
   width: 1200px;
   margin-top: -100px;
+}
+
+.thirdSection {
+  align-items: center;
+  padding: 0 100px;
+  border-radius: 0 150px 0 150px;
+  max-height: 350px;
+  background-image: url("../images/bg-pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 50%;
+}
+.thirdImg {
+  width: 1000px;
+}
+
+.fourthSection {
+  padding: 100px;
+}
+
+.fourthImg {
+  margin-left: -300px;
+  width: 1500px;
+}
+.fourthContent {
+  padding: 100px;
 }

@@ -16,4 +16,7 @@ body {
   body {
     padding: 0 20px;
   }
+  .wrapper {
+    overflow-x: hidden;
+  }
 }
