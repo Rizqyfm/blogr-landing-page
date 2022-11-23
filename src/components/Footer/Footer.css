@@ -1,12 +1,17 @@
 .footer {
-  padding: 50px 100px;
+  padding: 50px 0;
   width: 100%;
   justify-content: space-evenly;
+  border-radius: 0 100px 0 0;
 }
 .logoImg {
-  max-height: 45px;
+  max-height: 40px;
   width: auto;
 }
-.links {
+.footerLink {
   color: white;
+}
+.links li:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

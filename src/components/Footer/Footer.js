@@ -6,9 +6,9 @@ function Footer() {
   return (
     <section className="footer flex flex-row bg-gdDarkGrayBlue">
       <img src={logo} alt="Logo" className="logoImg" />
-      <section className="links flex flex-col">
-        <h5>Product</h5>
-        <ol>
+      <section className="footerLink flex flex-col">
+        <h5 className="footerHeading pb-8 font-bold">Product</h5>
+        <ol className="links flex flex-col gap-y-3 text-footerText">
           <li>Overview</li>
           <li>Pricing</li>
           <li>Marketplace</li>
@@ -16,9 +16,9 @@ function Footer() {
           <li>Integrations</li>
         </ol>
       </section>
-      <section className="links flex flex-col">
-        <h5>Company</h5>
-        <ol>
+      <section className="footerLink flex flex-col">
+        <h5 className="footerHeading pb-8 font-bold">Company</h5>
+        <ol className="links flex flex-col gap-y-3 text-footerText">
           <li>About</li>
           <li>Team</li>
           <li>Blog</li>
@@ -26,9 +26,9 @@ function Footer() {
           <li>Integrations</li>
         </ol>
       </section>
-      <section className="links flex flex-col">
-        <h5>Connect</h5>
-        <ol>
+      <section className="footerLink flex flex-col">
+        <h5 className="footerHeading pb-8 font-bold">Connect</h5>
+        <ol className="links flex flex-col gap-y-3 text-footerText">
           <li>Contact</li>
           <li>Newsletter</li>
           <li>LinkedIn</li>
