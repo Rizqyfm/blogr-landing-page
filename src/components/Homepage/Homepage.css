@@ -6,12 +6,9 @@
 
 .firstSection {
   max-height: 80vh;
-  background-image: linear-gradient(
-    to right,
-    hsl(13, 100%, 72%),
-    hsl(353, 100%, 62%)
-  );
   background-image: url("../images/bg-pattern-intro-desktop.svg");
+  background-image: url("../images/bg-pattern-intro-desktop.svg"),
+    linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 200%;
@@ -90,4 +87,86 @@
 }
 .fourthContent {
   padding: 100px;
+}
+
+/* Phone */
+@media screen and (max-width: 820px) {
+  .wrapper {
+    overflow-x: hidden;
+  }
+
+  .firstSection {
+    height: 100vh;
+    background-position: center center;
+    background-size: 300%;
+    border-radius: 0 0 0 120px;
+  }
+  .content {
+    height: 80vh;
+    padding: 0 18px;
+  }
+  .heading {
+    font-size: 38px;
+  }
+  .btn {
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+
+  .secondSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0px;
+    align-items: center;
+  }
+  .secondContent {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+  }
+  .subHeading {
+    font-size: 30px;
+  }
+  .leftSecond {
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+  }
+  .rightSecond {
+    margin-right: 0;
+  }
+  .secondImg {
+    max-width: 400px;
+    margin-top: 0;
+  }
+
+  .thirdSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    padding: 0 0 120px 0;
+    max-height: 800px;
+    background-position: top;
+    background-size: 100%;
+  }
+  .thirdImg {
+    min-width: 400px;
+    margin-top: -200px;
+  }
+  .rightThird {
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  .fourthContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+  }
+  .fourthImg {
+    margin-left: 0;
+  }
 }

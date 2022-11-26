@@ -1,6 +1,7 @@
 .navbar {
   padding: 20px 100px;
   background-color: hsl(13, 100%, 72%);
+  display: none;
 }
 
 .navbtn {
